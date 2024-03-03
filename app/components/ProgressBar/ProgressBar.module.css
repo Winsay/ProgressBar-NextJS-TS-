@@ -1,0 +1,22 @@
+.progressBar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(109, 109, 109);
+  position: fixed;
+  padding: 2px 20px 6px 20px;
+  height: 22px;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+
+.progressBar span {
+  color: #fff !important;
+}
+
+.progressBar span span {
+  color: #52c41a !important;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 16px !important;
+}
